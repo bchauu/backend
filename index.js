@@ -3,7 +3,7 @@ const controller = require("./controllers/messageController");
 const cors = require("cors");
 
 const app = express()
-const PORT = 4000
+const PORT = 8000
 
 app.listen(PORT, () => {
   console.log(`API listening on PORT ${PORT} `)
